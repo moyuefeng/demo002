@@ -1,0 +1,23 @@
+{
+  "name": "cli-vue0001",
+  "version": "1.1.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "td-cli": "./bin/www.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^4.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
