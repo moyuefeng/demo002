@@ -1,7 +1,8 @@
 {
   "name": "cli-vue0001",
   "version": "1.1.2",
-  "description": "",
+  "description": "<%=description%>",
+  "private":"<%=private%>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +11,8 @@
     "td-cli": "./bin/www.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "<%=author%>",
+  "license": "<%=license%>",
   "devDependencies": {
     "commander": "^9.0.0",
     "inquirer": "^8.2.0",
